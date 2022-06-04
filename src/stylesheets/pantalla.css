@@ -7,3 +7,9 @@
     text-align: right;
     padding-right: 10px;
 }
+
+@media screen and (max-width: 330px) {
+    .pantalla {
+        font-size: 1em;
+    }
+  }

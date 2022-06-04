@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Boton from './components/boton';
 import { useState } from 'react';
 import Pantalla from './components/pantalla';
-import { e, evaluate } from 'mathjs'
+import { evaluate } from 'mathjs'
 import BotonEvaluar from './components/botonEvaluar';
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
   const [input, setInput] = useState("")
 
   const addInput = (valor) => {
-    if (input.length>20) {
+    if (input.length>=20) {
       alert("Por favor, introduce un número más pequeño");
       return;
     }
@@ -41,6 +40,7 @@ function App() {
   return (
     <div className='App'>
       <div className='calculadora'>
+        <h1>Calculadora</h1>
       <div className='calculadora_fila'>
         <Pantalla className='pantalla' input={input}/>
       </div>
