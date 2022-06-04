@@ -1,0 +1,39 @@
+.boton {
+    font-size: 1.5em;
+    height: 50px;
+    margin: 15px;
+    cursor: pointer;
+    flex: 1 1;
+    border-radius: 20px;
+}
+
+.texto {
+    background-color: var(--terciario);
+    color: var(--cuaterciario);
+    border: 2px solid var(--cuaterciario);
+}
+
+.texto:hover {
+    background-color: var(--cuaterciario);
+    color: var(--terciario);
+    border: 2px solid var(--terciario);
+}
+
+.operador {
+    background-color: var(--quinto);
+    color: var(--terciario);
+    border: 2px solid var(--cuaterciario);
+}
+
+.operador:hover {
+    background-color: var(--cuaterciario);
+    color: var(--terciario);
+    border: 2px solid var(--terciario);
+}
+
+@media screen and (max-width: 330px) {
+    .boton {
+        font-size: 1.2em;
+        margin: 5px;
+    }
+  }
