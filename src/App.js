@@ -11,10 +11,10 @@ function App() {
   const [input, setInput] = useState("")
 
   const addInput = (valor) => {
-    // if (input.length>20) {
-    //   alert("Por favor, introduce un número más pequeño");
-    //   return;
-    // }
+    if (input.length>20) {
+      alert("Por favor, introduce un número más pequeño");
+      return;
+    }
     setInput(input + valor);
   };
 
