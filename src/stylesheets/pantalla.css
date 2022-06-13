@@ -1,8 +1,9 @@
 .pantalla {
     margin: 10px;
     height: 40px;
-    border: 2px solid var(--terciario);
-    background-color: var(--principal);
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(145, 160, 141);
     font-size: 1.5em;
     text-align: right;
     padding-right: 10px;

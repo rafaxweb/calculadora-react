@@ -1,10 +1,10 @@
 :root {
   /* PALETA DE COLORES */
-  --principal: #334257;
-  --secundario: #476072;
-  --terciario: #548CA8;
-  --cuaterciario: #EEEEEE;
-  --quinto: #F5CCE8;
+  --principal: #e6e6e6ab;
+  --secundario: #497ea3;
+  --terciario: #d9d9d9;
+  --cuaterciario: #262626;
+  --quinto: #3b4ba5;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body, html {
-  background-color: var(--principal);
+  background-color: #e6e6e6; 
   color: var(--cuaterciario);
   text-align: center;
 }

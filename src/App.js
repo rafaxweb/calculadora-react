@@ -71,9 +71,9 @@ function App() {
         <div className='calculadora_fila'>
         <Boton clase='operador' funcionClick={borrarInput}>Borrar todo</Boton>
         <Boton clase='operador' funcionClick={borrarUnElemento}> 	&lt;- </Boton>
-      <footer>
-        <p>Hecho por <a className='link' href='https://github.com/rafaxweb'>@rafaxweb</a></p> 
-      </footer>
+        <footer>
+          <p>Hecho por <a className='link' href='https://github.com/rafaxweb'>@rafaxweb</a></p> 
+        </footer>
         </div>
       </div>
     </div>
